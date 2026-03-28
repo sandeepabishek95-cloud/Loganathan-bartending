@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logu Bartending</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <img src="assets/logo.png" alt="Logo">
+    <span>Logu Bartending</span>
+  </div>
+
+  <div class="nav-actions">
+    <a href="#" class="call-btn">📞</a>
+    <a href="#" class="wa-btn">💬</a>
+    <button id="theme-toggle">🌙</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>Luxury Cocktail Experience</h1>
+  <p>5-Star Hotel Style Bartending</p>
+</header>
+
+<section class="section">
+  <h2>Find Your Cocktail</h2>
+  <input type="text" id="cocktail-search" placeholder="Search cocktails..." />
+  <div class="cards" id="cocktail-cards">
+    <!-- Cocktails dynamically loaded -->
+  </div>
+</section>
+
+<section class="section">
+  <h2>Packages</h2>
+  <div class="cards" id="package-cards">
+    <!-- Packages dynamically loaded -->
+  </div>
+</section>
+
+<a href="#" class="whatsapp-float">💬</a>
+<footer>© Logu Bartending</footer>
+
+<script src="script.js"></script>
+<script>
+  loadHomePage();
+</script>
+</body>
+</html>
