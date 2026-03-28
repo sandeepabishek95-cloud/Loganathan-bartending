@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cocktail</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="back-btn">⬅ Home</a>
+  <div class="nav-actions">
+    <a href="#" class="call-btn">📞</a>
+    <a href="#" class="wa-btn">💬</a>
+    <button id="theme-toggle">🌙</button>
+  </div>
+</nav>
+
+<h1 id="title" style="text-align:center"></h1>
+
+<div class="video-layout">
+  <div class="video">
+    <video id="video" autoplay muted loop controls></video>
+  </div>
+  <div class="ingredients">
+    <h2>Ingredients</h2>
+    <ul id="ingredients"></ul>
+  </div>
+</div>
+
+<footer>© Logu Bartending</footer>
+
+<script src="script.js"></script>
+<script>
+  loadCocktailPage();
+</script>
+</body>
+</html>
